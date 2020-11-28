@@ -1,0 +1,88 @@
+body {
+  background: #d6e2f2;
+  padding: 1rem 22rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title1,
+.title2,
+.title3 {
+  text-transform: capitalize;
+  line-height: 1.4;
+  color: coral;
+  font-weight: 700;
+}
+
+.title1 {
+  font-size: 24px;
+}
+.title2 {
+  font-size: 22px;
+}
+.title3 {
+  font-size: 20px;
+}
+
+.logo {
+  height: 80px;
+  object-fit: contain;
+}
+
+.cover {
+  margin-top: 1rem;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.cover img {
+  width: 600px;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20%;
+
+  transform: skewX(-20deg);
+}
+
+.contet {
+  margin-top: 1rem;
+  padding-left: 6rem;
+}
+
+.contet h2 {
+  font-size: 19px;
+  color: #1f3757;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.city {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.city::before {
+  content: '\2756';
+}
+
+.city ol li {
+  color: #5a7c52;
+  font-size: 14px;
+  margin-left: 60px;
+}
+
+.last {
+  text-align: right;
+  padding-right: 22rem;
+}
